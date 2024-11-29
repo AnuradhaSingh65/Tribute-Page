@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+  background-color: #070404;
+  color: rgb(241, 236, 230);
+  padding: 20px;
+  text-align: center;
+  text-shadow: 2px 2px red;
+  height: 300px;
+ 
+  
+}
+.container{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: black;
+  color: #fff;
+}
+h1{
+  margin: 0;
+ 
+}
+
+#img{
+  display: block;
+  margin: auto;
+  width: 50%;
+  max-width: 300px;
+  border-radius: 100%;
+  border-color: aqua;
+  border: 3px solid aqua;
+  border-style: inset;
+  box-shadow: 3px 5px 4px aqua;
+}
+
+.quote{
+  text-align: center;
+  font-style: italic;
+  color: rgb(46, 86, 139);
+  text-shadow: 3px 3px rgb(221, 251, 251);
+  text-transform: uppercase;
+
+  margin-top: 5px;
+  font-size: larger;
+  margin-top: 4rem;
+}
+
+.bio{
+  margin: 50px 100px;
+  text-align: center;
+
+}
+mark{
+  background-color: #150202;
+  color: rgb(122, 122, 197);
+}
+
+.txt{
+  text-align: center;
+ box-shadow: 2px 2px 3px 2px rgb(213, 244, 244);
+ text-shadow: 3px 3px rgb(35, 126, 171);
+  
+
+}
+p{
+ text-shadow: 2px 2px black;
+}
+p::first-letter{
+  font-size: 200%;
+  color: rgb(214, 154, 163);
+  text-shadow: 3px 1px white;
+}
+
+.planet{
+  height: 200px;
+  width: 200px;
+}
+
+.plan{
+  width: 100%;
+}
+.rocket{
+  height: 400px;
+  width: 400px;
+  position: relative;
+  margin-left: 800px;
+  margin-bottom: 20rem;
+}
+img{
+  width: 100%;
+}
